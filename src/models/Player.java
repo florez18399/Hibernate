@@ -8,8 +8,8 @@ public class Player {
 	private String lastName;
 	private int dorsal;
 	private int salary;
-	
-//	@OneToMany
+
+	// @OneToMany
 	private Team team;
 
 	public Player() {
