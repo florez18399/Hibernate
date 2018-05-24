@@ -2,11 +2,14 @@ package models;
 
 import java.util.ArrayList;
 
+//@Entity
 public class Team {
 	private int idTeam;
 	private String name;
 	private String country;
 	private String stadium;
+
+	// @OneToMany
 	private ArrayList<Player> listPlayers;
 
 	public Team() {

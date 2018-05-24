@@ -1,5 +1,6 @@
 package models;
 
+//@Entity 
 public class Player {
 
 	private int idPlayer;
@@ -7,6 +8,8 @@ public class Player {
 	private String lastName;
 	private int dorsal;
 	private int salary;
+	
+//	@OneToMany
 	private Team team;
 
 	public Player() {
